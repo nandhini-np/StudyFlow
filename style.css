@@ -6,17 +6,17 @@
 }
 
 :root {
-  --primary-gradient: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-  --bg-gradient: linear-gradient(135deg, #0f0c29 0%, #302b63 50%, #24243e 100%);
+  --primary-gradient: linear-gradient(135deg, #06b6d4 0%, #3b82f6 100%);
+  --bg-gradient: linear-gradient(135deg, #0a0f1c 0%, #0f172a 50%, #1e293b 100%);
   --glass-bg: rgba(255, 255, 255, 0.1);
   --glass-border: rgba(255, 255, 255, 0.2);
   --card-bg: rgba(255, 255, 255, 0.15);
   --text-primary: #ffffff;
   --text-secondary: rgba(255, 255, 255, 0.8);
-  --accent-color: #667eea;
-  --success-color: #48bb78;
-  --warning-color: #ed8936;
-  --danger-color: #f56565;
+  --accent-color: #38bdf8;
+  --success-color: #10b981;
+  --warning-color: #f59e0b;
+  --danger-color: #ef4444;
   --shadow-sm: 0 8px 32px rgba(0, 0, 0, 0.1);
   --shadow-lg: 0 15px 40px rgba(0, 0, 0, 0.2);
   --border-radius: 16px;
@@ -36,12 +36,12 @@ body {
 
 /* Light Theme */
 body.light-theme {
-  --bg-gradient: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+  --bg-gradient: linear-gradient(135deg, #e0f2fe 0%, #bae6fd 100%);
   --glass-bg: rgba(255, 255, 255, 0.7);
   --glass-border: rgba(255, 255, 255, 0.5);
   --card-bg: rgba(255, 255, 255, 0.8);
-  --text-primary: #2d3748;
-  --text-secondary: #4a5568;
+  --text-primary: #0f172a;
+  --text-secondary: #334155;
   --shadow-sm: 0 8px 32px rgba(0, 0, 0, 0.05);
   --shadow-lg: 0 15px 40px rgba(0, 0, 0, 0.1);
 }
@@ -135,7 +135,7 @@ body.light-theme {
 .auth-form input:focus {
   outline: none;
   border-color: var(--accent-color);
-  box-shadow: 0 0 0 3px rgba(102, 126, 234, 0.1);
+  box-shadow: 0 0 0 3px rgba(56, 189, 248, 0.1);
 }
 
 .auth-form input::placeholder {
